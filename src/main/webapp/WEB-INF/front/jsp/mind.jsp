@@ -7,7 +7,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 	<head>
-		<base href="<%=basePath%>">
 		<meta charset="UTF-8">
 		<title></title>
 		<style>
@@ -15,17 +14,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</style>
 	</head>
 	<body>
-		<div name="banner" style="width: 100%;height: 80px;background-color: #333436;">
-		<div style="float: left;margin-top: 10px;margin-left: 150px;"><img src="static/image/logo.png" /></div>
-		<div style="float:left;height: 60px;width: 1px;background-color: white;margin-left: 10px;margin-top: 10px;"></div>
-		<div style="color: white;float: left;font-size: 16px;font-weight:bold;margin-left: 15px;margin-top: 20px;">
-			<div>IT高压式、师徒式培训</div>
-			<div style="font-size: 12px;color: gray;">JavaEE/Android课程</div>
-		</div>
-		<div style="color: white;font-weight: bold;float: right;margin-right: 80px;margin-top: 20px;">免费试学14天,我们双向选择!我们只培养可塑之才<br><span style="color: gray;">联系方式:15295432682</span></div>
-	 	</div>	
 		<jsp:include page="/WEB-INF/front/jsp/menu.jsp"/>
-		<div style="width: 100%;height: 400px;background-color:#124D77;font-size: 36px;font-weight: bold;">
+		<div style="width: 100%;height: 400px;background-color:#0D2A49;font-size: 36px;font-weight: bold;">
 			<div style="color: white;position: relative;top: 80px;font-size: 55px;width: 100%;text-align: center;">大悟智课一路都在</div>
 			<div style="color: white;position: relative;top: 80px;font-size: 55px;width: 100%;text-align: center;">保驾护航</div>
 		</div>
