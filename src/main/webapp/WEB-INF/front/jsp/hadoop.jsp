@@ -14,6 +14,21 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	*{margin: 0px;padding: 0px}
 
 </style>
+<script src="static/js/jquery3.1.1-min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		var isMobile = function() {
+			var u = navigator.userAgent,
+				app = navigator.appVersion;
+			mobile = !!u.match(/AppleWebKit.*Mobile.*/) || !!u.match(/AppleWebKit/) //是否为移动终端
+			return mobile;
+		};
+		if (!isMobile()) {
+			$("#content").css("width", "90%");
+		}
+		;
+	});
+</script>
 <body style="background-color: #FFF">
 
 	<jsp:include page="/WEB-INF/front/jsp/menu.jsp"/>
@@ -24,21 +39,32 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<div style="color: white;position: relative;top: 70px;font-size: 50px;width: 100%;text-align: center;">等你来</div>
 		</div>
 	 </div>
-	
-	 <div style="margin: 0 auto; width: 1200px;">
-	 	<div style="height: 15px;width: 100%;"></div>
+	 <div id="content" style="margin: 0 auto; width: 100%;">
+ 		<div style="height: 15px;width: 100%;"></div>
 	 	<div style="color: #082066;font-weight: bold;font-size: 26px;">大数据薪资统计</div>
-	 	<div style="padding: 5px;border-radius: 5px;height: 270px;width: 100%;">
+	 	<div style="border-radius: 5px;height: 450px;width: 100%;">
 	 		<div style="text-align: center;;background-color: #009999;width: 100%;height: 40px;border-radius: 5px;font-size: 18px;font-weight: bold;color: white;">
 	 			<div style="border-right: 1px solid #FFF;width: 90px;position: relative;float: left;height: 100%;line-height: 40px;">最新招聘</div>
 	 			<div style="border-right: 1px solid #FFF;width: 90px;position: relative;float: left;height: 100%;line-height: 40px;background-color: #006666;">工资收入</div>
 	 			<div style="border-right: 1px solid #FFF;width: 90px;position: relative;float: left;height: 100%;line-height: 40px;">就业形势</div>
 	 		</div>
 	 		<div style="height: 5px;width: 100%;"></div>
-	 		<div>
-	 			<div style="float: left;"><img src="static/image/hadoopbingtu.png" /></div>
+	 		<div style="width: 100%;text-align: center;font-size: 25px;color: #034C99">大数据时代来袭,你还在等什么?</div>
+	 		<div style="width: 100%;text-align: center;font-size: 18px;color: #034C99">
+	 			短短的7年，我们经历了web时代、电商时代、移动互联网时代、现在到大数据时代、直到后期的人工智能时代<br>
+	 			不要等待时代过去，就追悔莫及!大数据的工资水平已经到了10210？快快加入大数据的学习吧!大悟智课涉及<br>
+	 			了全面的大数据技术，让你在技术高薪的路上少走弯路！
 	 		</div>
-	 	</div>
+	 		<div style="height: 30px;width: 100%;"></div>
+	 		<div style="height: 300px;width: 100%;">
+	 			<div style="float: left;width: 50%;"><img src="static/image/hadoopbingtu2.png" style="display: block;position: relative;left: 50px;"/></div>
+	 			<div style="float: left;width: 30%;position: relative;left: 130px;">
+	 				<div style="height: 30px;width: 100%"></div>
+	 				<div style="font-weight: bold;font-size:60px;">平均工资</div>
+	 				<div style="color: #E65A13;font-size: 78px;font-weight: bold;">¥10210</div>
+	 			</div>
+	 		</div>
+		 </div>
 	 	<div style="height: 15px;width: 100%;"></div>
 		<div>
 			<div style="height: 20px;width: 100%;"></div>
@@ -52,14 +78,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</thead>
 			<tbody>
 				<tr  style="height: 45px;background-color: #0E72C4;text-align: center;color: white;">
-					<td style="width: 200px;">阶段一</td>
-					<td style="width: 200px;">技术名称</td>
-					<td style="text-align: left; padding-left: 20px;">技术内容</td>
+					<td style="width: 20%;">阶段一</td>
+					<td style="width: 20%;">技术名称</td>
+					<td style="text-align: left; padding-left: 20px;width: 60%;">技术内容</td>
 					
 				</tr>
 				<tr style="color: #333;font-size: 14px;height: 80px;">
 					<td style="border-top: 1px solid #ccc;text-align: center;font-size: 36px;font-weight: bold;background-color: #FFF;" >
-						<img src="static/static/image/linux.png"/>
+						<img src="static/image/linux.png"/>
 					</td>
 					<td style="border-left:1px solid  #cccccc;border-right:1px solid  #cccccc;text-align: center;">Linux大纲</td>
 					<td style="padding: 10px;">
@@ -286,8 +312,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</table>
 		</div>
 		<div style="height: 20px;width: 100%;"></div>
-		<div>
-		<table cellpadding="1" cellspacing="1" style="border: 1px solid  #cccccc;font-weight: bold;" bgcolor="#FFF">
+		<div style="width: 100%;">
+		<table cellpadding="1" cellspacing="1" style="border: 1px solid  #cccccc;font-weight: bold;width: 100%;" bgcolor="#FFF">
 			<thead>
 				<tr style="height: 45px;text-align: center; ">
 					<td colspan="4" style="color:#082066;font-size: 36px;font-weight: bold;text-align: center;">
@@ -297,9 +323,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</thead>
 			<tbody>
 				<tr  style="height: 45px;background-color: #0E72C4;text-align: center;color: white;">
-				<td style="width: 200px;">阶段二</td>
-					<td style="width: 200px;">技术名称</td>
-					<td style="text-align: left; width: 800px;padding-left: 20px;">技术内容</td>
+				<td style="width: 20%;">阶段二</td>
+					<td style="width: 20%;">技术名称</td>
+					<td style="text-align: left; width: 60%;padding-left: 20px;">技术内容</td>
 				</tr>
 				<tr style="color: #333;font-size: 14px;height: 70px;">
 					<td style="border-top: 1px solid #ccc;text-align: center;font-size: 36px;font-weight: bold;background-color: #FFF;" >
@@ -342,7 +368,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</div>
 		<div>
 		<div style="height: 20px;width: 100%;"></div>
-			<table cellpadding="1" cellspacing="1" style="border: 1px solid  #cccccc;font-weight: bold;" bgcolor="#FFF">
+			<table cellpadding="1" cellspacing="1" style="border: 1px solid  #cccccc;font-weight: bold;width: 100%;" bgcolor="#FFF">
 			<thead>
 				<tr style="height: 45px;text-align: center; ">
 					<td colspan="3" style="color:#082066;font-size: 36px;font-weight: bold;text-align: center;">
@@ -352,9 +378,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</thead>
 			<tbody>
 				<tr  style="height: 45px;background-color: #0E72C4;text-align: center;color: white;">
-				<td style="width: 185px;">阶段三</td>
-					<td style="width: 200px;">技术名称</td>
-					<td style="text-align: left; width: 800px;padding-left: 20px;">技术内容</td>
+				<td style="width: 20%;">阶段三</td>
+					<td style="width: 20%;">技术名称</td>
+					<td style="text-align: left; width: 60%;padding-left: 20px;">技术内容</td>
 				</tr>
 				<tr style="color: #333;font-size: 14px;height: 50px;">
 					<td style="text-align: center;font-size: 28px;font-weight: bold;" ><img src="static/image/redis.png"></td>
@@ -432,7 +458,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</div>
 		<div style="height: 20px;width: 100%;"></div>
 		<div>
-			<table cellpadding="1" cellspacing="1" style="border: 1px solid  #cccccc;font-weight: bold;" bgcolor="#FFF">
+			<table cellpadding="1" cellspacing="1" style="border: 1px solid  #cccccc;font-weight: bold;width: 100%;" bgcolor="#FFF">
 			<thead>
 				<tr style="height: 45px;text-align: center; ">
 					<td style="color:#082066;font-size: 36px;font-weight: bold;text-align: center;" colspan="3">
@@ -442,9 +468,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</thead>
 			<tbody>
 				<tr  style="height: 45px;background-color: #0E72C4;text-align: center;color: white;">
-				<td style="width: 200px;">阶段四</td>
-					<td style="width: 200px;">技术名称</td>
-					<td style="text-align: left; width: 800px;padding-left: 20px;">技术内容</td>
+				<td style="width: 20%;">阶段四</td>
+					<td style="width: 20%;">技术名称</td>
+					<td style="text-align: left; width: 60%;padding-left: 20px;">技术内容</td>
 				</tr>
 				<tr style="color: #333;font-size: 14px;height: 50px;">
 					<td style="text-align: center;font-size: 28px;font-weight: bold;background-color: #FFFFFF;"><img src="static/image/python.png"></td>
@@ -550,7 +576,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</div>
 		<div style="height: 20px;width: 100%;"></div>
 		<div>
-		 <table cellpadding="1" cellspacing="1" style="border: 1px solid  #cccccc;font-weight: bold;" bgcolor="#FFF">
+		 <table cellpadding="1" cellspacing="1" style="border: 1px solid  #cccccc;font-weight: bold;width: 100%;" bgcolor="#FFF">
 			<thead>
 				<tr style="height: 45px;text-align: center; ">
 					<td colspan="4"  style="color:#082066;font-size: 36px;font-weight: bold;text-align: center;">第五阶段：云计算平台</td>
@@ -558,9 +584,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</thead>
 			<tbody>
 				<tr  style="height: 45px;background-color: #0E72C4;text-align: center;color: white;">
-				<td style="width: 200px;">阶段五</td>
-					<td style="width: 200px;">技术名称</td>
-					<td style="text-align: left; width: 800px;padding-left: 20px;">技术内容</td>
+				<td style="width: 20%;">阶段五</td>
+					<td style="width: 20%;">技术名称</td>
+					<td style="text-align: left; width: 60%;padding-left: 20px;">技术内容</td>
 				</tr>
 				<tr style="color: #333;font-size: 14px;height: 220px;">
 					<td style="border-top: 1px solid #ccc;text-align: center;font-size: 36px;font-weight: bold;background-color: #FFF;" >
