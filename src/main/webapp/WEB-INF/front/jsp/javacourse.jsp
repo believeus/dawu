@@ -38,6 +38,31 @@
 		<div style="color: white;position: relative;top: 70px;font-size: 50px;width: 100%;text-align: center;">底薪8K起！</div>
 	</div>
 	<div id="course" style="margin:0px auto;width: 100%;height: 7500px;clear: both;">
+		<!-- Begin: -->
+		<div style="height: 15px;width: 100%;"></div>
+		<div style="width: 100%;height: 300px;border: 1px solid #ccc; border-radius: 5px;">
+			<div style="width: 100%;height: 45px;border-bottom: 1px solid #ccc;font-size: 22px;font-weight: bold;color: #666674;">
+				<div style="background-color: #2E98CC;height: 45px;width: 10%;float: left;"></div>
+				<div style="float: left;position: relative;width: 90%;color: #2E98CC;background-color: #EBEBED;height: 45px;line-height: 45px;letter-spacing: 5px;">&nbsp;&nbsp;我有话要说!</div>
+			</div>
+			<div style="width: 100%;height: 220px;border-bottom: 1px solid #ccc;font-size:17px;font-family: 宋体;line-height: 28px;">
+			  	<div style="position: relative;top: 20px;width: 95%;margin: 0 auto;">
+					<span style="width: 20px;float: left;">&nbsp;</span>我们的课程安排比较多，这样安排的目的就是为了让学员打好基础！去公司工作，工作的内容大都是维护以前的项目。老项目的特点就是经手过很多的程序猿！
+					不同的程序猿的技术都不同。导致了一个旧项目有很多的技术点。我们安排课程的目的就在于此！虽然我们所教授的课程，例如Ant是比较老的技术了，但是
+					我们的初衷是能让你在工作中可以掌控这些技术，你就会得心应手！在工作中不会心理没底！我们课程中也安排了大量的Linux服务配置的技术！例如：DNS、Redis集群、Varnish等这些技术才是
+					在企业中会实际用到的技术！这些知识点会让你的技术格局变大！不在局限于小小的编程视野中！我们同样安排了python语言作为我们的第二门语言！Python和java是同一个级别的编程语言
+					有了Python就能更好的维护好Linux操作系统！总之我们所做的一切就是让你在职场的竞争中少碰壁！
+				</div>
+			</div>
+		</div>
+		<!-- End: -->
+		<!-- Begin: -->
+		<!-- <div style="width: 100%;height: 400px;">
+			<div style="float: left;"><img alt="" src="static/image/zengwenwen.jpeg"></div>
+			<div style="float: left;width: 20px;height: 400px;"></div>
+			<div style="float: left;"><img alt="" src="static/image/zhangjinhui.jpeg"></div>
+		</div> -->
+		<!-- End -->
 		<div style="margin:0px auto;width: 100%;height: 420px;clear: both;">
 			<div style="height: 15px;width: 100%;"></div>
 			<div style="color: #082066;font-weight: bold;font-size: 26px;">JAVA薪资统计</div>
@@ -59,23 +84,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- Begin: -->
-		<div style="width: 100%;height: 300px;border: 1px solid #ccc; border-radius: 5px;">
-			<div style="width: 100%;height: 45px;border-bottom: 1px solid #ccc;font-size: 22px;font-weight: bold;color: #666674;">
-				<div style="background-color: #009BF2;height: 45px;width: 10%;float: left;"></div>
-				<div style="float: left;position: relative;width: 90%;color: #4DAEF5;background-color: #EBEBED;height: 45px;line-height: 45px;letter-spacing: 5px;">&nbsp;&nbsp;我有话要说!</div>
-			</div>
-			<div style="width: 100%;height: 220px;border-bottom: 1px solid #ccc;font-size:17px;font-family: 宋体;line-height: 28px;background-color: #FCFCFC;">
-			  	<div style="position: relative;top: 20px;width: 95%;margin: 0 auto;">
-					<span style="width: 20px;float: left;">&nbsp;</span>我们的课程安排比较多，这样安排的目的就是为了让学员打好基础！去公司工作，工作的内容大都是维护以前的项目。老项目的特点就是经手过很多的程序猿！
-					不同的程序猿的技术都不同。导致了一个旧项目有很多的技术点。我们安排课程的目的就在于此！虽然我们所教授的课程，例如Ant是比较老的技术了，但是
-					我们的初衷是能让你在工作中可以掌控这些技术，你就会得心应手！在工作中不会心理没底！我们课程中也安排了大量的Linux服务配置的技术！例如：DNS、Redis集群、Varnish等这些技术才是
-					在企业中会实际用到的技术！这些知识点会让你的技术格局变大！不在局限于小小的编程视野中！我们同样安排了python语言作为我们的第二门语言！Python和java是同一个级别的编程语言
-					有了Python就能更好的维护好Linux操作系统！总之我们所做的一切就是让你在职场的竞争中少碰壁！
-				</div>
-			</div>
-		</div>
-		<!-- End: -->
+		
 		<!-- Begin:课程大纲 -->
 		<div style="width: 100%;height: 6440px;">
 			<!-- Begin:第一阶段:计算机基础 -->
