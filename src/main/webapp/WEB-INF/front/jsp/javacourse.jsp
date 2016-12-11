@@ -13,7 +13,7 @@
 <style>
 * {
 	margin: 0px;
-	padding: 0px
+	padding: 0px;
 }
 </style>
 <script src="static/js/jquery3.1.1-min.js"></script>
@@ -37,7 +37,7 @@
 		<div style="color: white;position: relative;top: 70px;font-size: 55px;width: 100%;text-align: center;">JavaEE/Android都是干货</div>
 		<div style="color: white;position: relative;top: 70px;font-size: 50px;width: 100%;text-align: center;">底薪8K起！</div>
 	</div>
-	<div id="course" style="margin:0px auto;width: 100%;height: 7100px;clear: both;">
+	<div id="course" style="margin:0px auto;width: 100%;height: 7500px;clear: both;">
 		<div style="margin:0px auto;width: 100%;height: 420px;clear: both;">
 			<div style="height: 15px;width: 100%;"></div>
 			<div style="color: #082066;font-weight: bold;font-size: 26px;">JAVA薪资统计</div>
@@ -59,10 +59,27 @@
 				</div>
 			</div>
 		</div>
+		<!-- Begin: -->
+		<div style="width: 100%;height: 300px;border: 1px solid #ccc; border-radius: 5px;">
+			<div style="width: 100%;height: 45px;border-bottom: 1px solid #ccc;font-size: 22px;font-weight: bold;color: #666674;">
+				<div style="background-color: #009BF2;height: 45px;width: 10%;float: left;"></div>
+				<div style="float: left;position: relative;width: 90%;color: #4DAEF5;background-color: #EBEBED;height: 45px;line-height: 45px;letter-spacing: 5px;">&nbsp;&nbsp;我有话要说!</div>
+			</div>
+			<div style="width: 100%;height: 220px;border-bottom: 1px solid #ccc;font-size:17px;font-family: 宋体;line-height: 28px;background-color: #FCFCFC;">
+			  	<div style="position: relative;top: 20px;width: 95%;margin: 0 auto;">
+					<span style="width: 20px;float: left;">&nbsp;</span>我们的课程安排比较多，这样安排的目的就是为了让学员打好基础！去公司工作，工作的内容大都是维护以前的项目。老项目的特点就是经手过很多的程序猿！
+					不同的程序猿的技术都不同。导致了一个旧项目有很多的技术点。我们安排课程的目的就在于此！虽然我们所教授的课程，例如Ant是比较老的技术了，但是
+					我们的初衷是能让你在工作中可以掌控这些技术，你就会得心应手！在工作中不会心理没底！我们课程中也安排了大量的Linux服务配置的技术！例如：DNS、Redis集群、Varnish等这些技术才是
+					在企业中会实际用到的技术！这些知识点会让你的技术格局变大！不在局限于小小的编程视野中！我们同样安排了python语言作为我们的第二门语言！Python和java是同一个级别的编程语言
+					有了Python就能更好的维护好Linux操作系统！总之我们所做的一切就是让你在职场的竞争中少碰壁！
+				</div>
+			</div>
+		</div>
+		<!-- End: -->
 		<!-- Begin:课程大纲 -->
 		<div style="width: 100%;height: 6440px;">
 			<!-- Begin:第一阶段:计算机基础 -->
-			<div style="width: 100%;height: 275px;">
+			<div style="width: 100%;height: auto;">
 				<div style="color:#082066;font-size: 36px;font-weight: bold;text-align: center;width: 100%;height: 45px;border: 1px solid #ccc;">第一阶段:计算机基础</div>
 				<div style="height: 45px;background-color: #0E72C4;text-align: center;color: white;line-height: 45px;clear: both;">
 					<div style="float: left;width: 29.9%;height: 45px;">阶段一</div>
@@ -71,7 +88,7 @@
 					<div style="float: left;width: 0.1%;height: 45px;background-color: #FFF;"></div>
 					<div style="float: left;width: 40%;height: 45px;">技术内容</div>
 				</div>
-				<div style="height: 120px;font-size: 14px;width: 100%; text-align: center;font-weight: bold;border: 1px solid #ccc;clear: both;">
+				<div style="height: auto;font-size: 14px;width: 100%; text-align: center;font-weight: bold;border: 1px solid #ccc;clear: both;">
 					<div style="float: left;width: 29.9%;height:120px;"><img src="static/image/wps.png" /></div>
 					<div style="float: left;width: 0.1%;height:120px;background-color: #CCC;"></div>
 					<div style="float: left;width: 29.9%;height:120px;line-height: 120px;">金山打字/office办公软件</div>
@@ -198,7 +215,7 @@
 					<div style="height:50px;text-align: center; border-top: 1px solid #ccc;width: 29.9%;float: left;line-height: 60px;">学习目标</div>
 					<div style="float: left;width: 0.1%;height:60px;background-color: #CCC;"></div>
 					<div style="float: left;height:60px;font-size: 14px;width:70%;text-align: left;">
-						<span style="position: relative;top: 0px;">
+						<span style="position: relative;top: 10px;">
 							一定要拥有快速布局页面的能力，现在很多项目都鼓吹Html5+Css3但是，这一切的基础都要回归到页面布局上，这才是html中div+css的精华所在！在公司工作，一天布局46个页面是家常便饭，一天8个小时，也就是说一个小时
 							要布局5个半页面！你准备好了吗？！
 						</span>
@@ -376,7 +393,7 @@
 					</div>
 					<div style="width: 0.1%;float: left;height: 200px"></div>
 					<div style="width: 44.8%;float: left;height: 200px;border: 1px solid #ccc;">
-						<div style="clear: both;width: 100%;height: 100px;border: 1px solid #ccc;text-align: left;"><span style="position: relative;">完成同一个任务，C语言要写1000行代码，Java只需要写100行，而Python可能只要20行。 用Python可以做什么？可以做日常任务，比如自动备份你的MP3；可以做网站，很多著名的网站包括YouTube就是Python写的；可以做网络游戏的后台，很多在线游戏的后台都是Python开发的。总之就是能干很多很多事啦。</span> </div>
+						<div style="clear: both;width: 100%;height: 100px;border: 1px solid #ccc;text-align: left;"><span style="position: relative;top: 10px;">完成同一个任务，C语言要写1000行代码，Java只需要写100行，而Python可能只要20行。 用Python可以做什么？可以做日常任务，比如自动备份你的MP3；可以做网站，很多著名的网站包括YouTube就是Python写的；可以做网络游戏的后台，很多在线游戏的后台都是Python开发的。总之就是能干很多很多事啦。</span> </div>
 						<div style="clear: both;width: 100%;height: 100px;border: 1px solid #ccc;text-align: left;">
 							<span style="position: relative;top:0px;">
 							1.Python基础语法
@@ -439,7 +456,7 @@
 						<div style="height:80px;border: 1px solid #ccc;width: 100%;"><img src="static/image/shiro.png" /></div>
 						<div style="height:80px;border: 1px solid #ccc;width: 100%;"><img  style="position: relative;left: -10px;" src="static/image/lucene.png" /></div>
 						<div style="height:160px;border: 1px solid #ccc;width: 100%;"><img  src="static/image/webservice.png" style="position: relative;top: 45px;" /></div>
-						<div style="height:120px;border: 1px solid #ccc;width: 100%;"><img style="position: relative;top: 30px;" width="90%" src="static/image/activityMQ.png" /></div>
+						<div style="height:120px;border: 1px solid #ccc;width: 100%;"><img style="position: relative;top: 30px;" width="90%" src="static/image/activiti.png" /></div>
 					</div>
 					<div style="width: 0.1%;float: left;height: auto;background-color: #FFF;"></div>
 					<div style="width: 14.9%;float: left;height: auto; ">
@@ -460,7 +477,7 @@
 					<div style="width: 0.1%;float: left;height: 20px"></div>
 					<div style="width: 44.8%;float: left;height: auto;border: 1px solid #ccc;">
 						<div style="clear: both;width: 100%;height: 180px;border: 1px solid #ccc;text-align: left;">
-							<span style="position: relative;top:0px;">
+							<span style="position: relative;top:10px;">
 								Maven是一个项目管理工具，它包含了一个项目对象模型 ，一组标准集合，一个项目生命周期，一个依赖管理系统
 								掌握常用命令有:
 								(1)mvn archetype：create 创建Maven项目  (2)mvn compile 编译源代码  
@@ -559,7 +576,7 @@
 			<!-- End:第八阶段：JAVAEE企业级开发 -->
 			<div style="height: 20px;width: 100%;"></div>
 			<!-- Begin:第九阶段：Linux高并发服务配置 -->
-			<div style="width: 100%;height: 1465px;">
+			<div style="width: 100%;height: auto;">
 				<div style="color:#082066;font-size: 36px;font-weight: bold;text-align: center;width: 100%;height: 45px;border: 1px solid #ccc;">第九阶段：Linux高并发服务配置</div>
 				<div style="height: 45px;background-color: #0E72C4;text-align: center;color: white;line-height: 45px;clear: both;">
 					<div style="float: left;width: 14.9%;height: 45px;">阶段九</div>
@@ -583,6 +600,7 @@
 						<div style="height:120px;border: 1px solid #ccc;width: 100%;"><img  src="static/image/mongodb.png" style="position: relative;top:10px;" /></div>
 						<div style="height:80px;border: 1px solid #ccc;width: 100%;line-height: 80px;">Varnish</div>
 						<div style="height:50px;border: 1px solid #ccc;width: 100%;"><span style="position: relative;top: 10px;">IPtables</span></div>
+						<div style="height:100px;border: 1px solid #ccc;width: 100%;"><img width="150px" src="static/image/activityMQ.png" style="position: relative;top:10px;" /></div>
 					</div>
 					<div style="width: 0.1%;float: left;height: auto;background-color: #FFF;"></div>
 					<div style="width: 14.9%;float: left;height: auto; ">
@@ -597,11 +615,12 @@
 						<div style="clear: both;width: 100%;height: 120px;line-height:100px;border: 1px solid #ccc;">MongoDB</div>
 						<div style="clear: both;width: 100%;height: 80px;line-height:80px;border: 1px solid #ccc;">Varinish</div>
 						<div style="clear: both;width: 100%;height: 50px;line-height:50px;border: 1px solid #ccc;">防火墙</div>
+						<div style="clear: both;width: 100%;height: 100px;line-height:100px;border: 1px solid #ccc;">ActivityMQ</div>
 					</div>
 					<div style="width: 0.1%;float: left;height: 200px"></div>
 					<div style="width: 44.8%;float: left;height: auto;border: 1px solid #ccc;">
 						<div style="clear: both;width: 100%;height: 150px;border: 1px solid #ccc;text-align: left;">
-							<span style="position: relative;top:5px;">
+							<span style="position: relative;top:15px;">
 								Nginx是一款轻量级的Web 服务器/反向代理服务器及电子邮件（IMAP/POP3）代理服务器，并在一个BSD-like 协议下发行。由俄罗斯的程序设计师Igor Sysoev所开发，供俄国大型的入口网站及搜索引擎Rambler（俄文：Рамблер）使用。其特点是占有内存少，并发能力强，事实上nginx的并发能力确实在同类型的网页服务器中表现较好，中国大陆使用nginx网站用户有：百度、京东、新浪、网易、腾讯、淘宝等。 
 							</span> 
 						</div>
@@ -621,12 +640,12 @@
 							</span>
 						</div>
 						<div style="clear: both;width: 100%;height: 100px;border: 1px solid #ccc;text-align: left;">
-							<span style="position: relative;top:0px;">
+							<span style="position: relative;top:10px;">
 								可伸缩网络服务的几种结构，它们都需要一个前端的负载调度器（或者多个进行主从备份）。我们先分析实现虚拟网络服务的主要技术，指出IP负载均衡技术是在负载调度器的实现技术中效率最高的。在已有的IP负载均衡技术中，主要有通过网络地址转换将一组服务器构成一个高性能的、高可用的虚拟服务器，我们称之为VS/NAT技术
 							</span>
 						</div>
 						<div style="clear: both;width: 100%;height: 150px;border: 1px solid #ccc;text-align: left;">
-							<span style="position: relative;">
+							<span style="position: relative;top:10px;">
 								KeepAliveTime 值控制 TCP/IP 尝试验证空闲连接是否完好的频率。如果这段时间内没有活动，则会发送保持活动信号。如果网络工作正常，而且接收方是活动的，它就会响应。如果需要对丢失接收方敏感，换句话说，需要更快地发现丢失了接收方，请考虑减小这个值。如果长期不活动的空闲连接出现次数较多，而丢失接收方的情况出现较少，您可能会要提高该值以减少开销。缺省情况下，如果空闲连接 7200000 毫秒（2 小时）内没有活动，Windows 就发送保持活动的消息
 							</span>
 						</div>
@@ -646,13 +665,18 @@
 							</span> 
 						</div>
 						<div style="clear: both;width: 100%;height: 80px;border: 1px solid #ccc;text-align: left;">
-							<span style="position: relative;">
+							<span style="position: relative;top:10px;">
 								Varnish是一款高性能的开源HTTP加速器,储存媒介只有两种：内存与硬盘。但现在计算机系统的内存除了主存外，还包括了CPU内的L1、L2，甚至有L3快取。硬盘上也有自己的快取装置，因此Varnish就这样诞生了
 							</span>
 						</div>
 						<div style="clear: both;width: 100%;height: 50px;border: 1px solid #ccc;text-align: left;">
-							<span style="position: relative;">
+							<span style="position: relative;top:10px;">
 								防火墙的原理必须要掌握，这是一个基本的技能，要学会网络端口的关闭和开启，监控Ip等配置
+							</span>
+						</div>
+						<div style="clear: both;width: 100%;height: 100px;border: 1px solid #ccc;text-align: left;">
+							<span style="position: relative;top:10px;">
+								Apache的ActiveMQ ™是最流行和最强大的开源消息传递和集成模式的服务器。速度快，支持多种跨语言客户端和协议，配有易于使用的企业集成模式，并同时完全支持JMS 1.1和J2EE 1.4许多先进的功能。 
 							</span>
 						</div>
 					</div>
@@ -669,6 +693,7 @@
 						<div style="clear: both;width: 100%;height: 120px;border: 1px solid #ccc;"><span style="position: relative;top: 10px;">其他培训学校<br>无此课程</span></div>
 						<div style="clear: both;width: 100%;height: 80px;border: 1px solid #ccc;"><span style="position: relative;top: 10px;">其他培训学校<br>无此课程</span></div>
 						<div style="clear: both;width: 100%;height: 50px;border: 1px solid #ccc;font-size: 16px;">其他培训学校<br>无此课程</div>
+						<div style="clear: both;width: 100%;height: 100px;border: 1px solid #ccc;"><span style="position: relative;top: 10px;">其他培训学校<br>无此课程</span></div>
 					</div>
 				</div>
 				<div style="height: 60px;clear: both;width: 100%;border: 1px solid #ccc;font-weight: bold;background-color:#972622;color: white; ">
@@ -684,7 +709,6 @@
 			<!-- End:第九阶段：Linux高并发服务配置 -->
 			<div style="width: 100%;height: 20px;"></div>
 			<!-- Begin:第十阶段:Android手机开发 -->
-			
 			<div style="width: 100%;height: 275px;">
 				<div style="color:#082066;font-size: 36px;font-weight: bold;text-align: center;width: 100%;height: 45px;border: 1px solid #ccc;">第十阶段：Android手机开发 </div>
 				<div style="height: 45px;background-color: #0E72C4;text-align: center;color: white;line-height: 45px;clear: both;">
@@ -716,7 +740,6 @@
 				</div>
 			</div>
 			<!-- End:第十阶段:Android手机开发 -->
-			
 		</div>
 		<!-- End:课程大纲 -->
 	</div>
