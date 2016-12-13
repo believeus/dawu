@@ -38,8 +38,8 @@
 	</div>
 	<!-- Begin: -->
 		<div style="width: 100%;height: 400px;background-color:#222A35;font-size: 36px;font-weight: bold;">
-			<div style="color: white;position: relative;top: 120px;font-size: 70px;width: 100%;text-align: center;">大悟智课一路都在</div>
-			<div style="color: white;position: relative;top: 120px;font-size: 70px;width: 100%;text-align: center;">保驾护航</div>
+			<div style="color: white;position: relative;top: 100px;font-size: 70px;width: 100%;text-align: center;">大悟智课一路都在</div>
+			<div style="color: white;position: relative;top: 100px;font-size: 70px;width: 100%;text-align: center;">保驾护航</div>
 		</div>
 	<!-- End -->
 	
