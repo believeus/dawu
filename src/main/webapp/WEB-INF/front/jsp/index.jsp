@@ -47,5 +47,5 @@
 	
 
 	<jsp:include page="/WEB-INF/front/jsp/foot.jsp" />
-
+	
 </body>
