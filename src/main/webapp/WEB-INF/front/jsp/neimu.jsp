@@ -9,18 +9,20 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="baidu-site-verification" content="jt42y1RpCu" />
+		<meta name="description" content="java培训，师徒式java培训，双向选择java培训，java高端培训，java高薪就业" />
 		<style>
 			*{padding: 0px;margin: 0px;}
 			/* div{border: 1px solid #ccc;} */
 		</style>
-		<title></title>
+		<title>大悟智课</title>
 	</head>
 	
 	<body>
 	<jsp:include page="/WEB-INF/front/jsp/menu.jsp"/>
 	<div style="width: 100%;height: 400px;background-color:#0D2A49;font-size: 36px;font-weight: bold;">
-		<div style="color: white;position: relative;top: 80px;font-size: 55px;width: 100%;text-align: center;">别被培训机构</div>
-		<div style="color: white;position: relative;top: 80px;font-size: 55px;width: 100%;text-align: center;">坑了你</div>
+		<div style="color: white;position: relative;top: 80px;font-size: 55px;width: 100%;text-align: center;">大悟智课为你揭秘</div>
+		<div style="color: white;position: relative;top: 80px;font-size: 55px;width: 100%;text-align: center;">培训骗术 </div>
 	</div>
 	<div style="width: 100%;height:auto;margin: 0 auto;">
 		<div style="width: 100%;height: 20px;"></div>
@@ -273,7 +275,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					</div>
 					<div style="padding:10px;;float: left;background-color: #BCE3F9;border-radius: 15px;width: 550px;height: 330px;font-family: 微软雅黑;font-size: 24px;color: rgb(62, 62, 62);">
 						<div style="line-height: 40px;">
-							其实所谓的“助学金”是银行的一种信用贷款，第一次申请下来的额度有3万左右，和信用卡一样，利息比较高，等你找到工作之后需要分期付款偿还你所贷款的金额!如果你毕业之后没有从事软件开发工作,但是后期这笔钱还是要 逐月偿还的!这种助学贷款是第三方的的金融机构,你可以很容易的申请下来,不要被某些培训学校忽悠了!所以天下没有白吃的午餐!勿入坑 
+							其实所谓的“助学金”是银行的一种信用贷款，第一次申请下来的额度有3万左右，和信用卡一样，利息比较高，等你找到工作之后需要分期付款偿还你所贷款的金额!这种助学贷款是第三方的的金融机构,你可以很容易的申请下来,如果偿还不了就是承担刑事责任!不要被某些培训学校忽悠了!所以天下没有白吃的午餐!勿入坑 
 						</div>
 					</div>
 				</div>

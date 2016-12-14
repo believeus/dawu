@@ -31,7 +31,7 @@
 			<td style="border-right: 1px dashed white;width: 12.5%;text-align: center;">数学<br>(暂无)</td>
 			<td style="border-right: 1px dashed white;width: 12.5%;text-align: center;">网络营销<br>(暂无)</td>
 			<td style="border-right: 1px dashed white;width: 12.5%;text-align: center;">
-				<a href="neimu" style="text-decoration: none;color: white;text-align: center;">行业内幕</a>
+				<a href="neimu" style="text-decoration: none;color: white;text-align: center;">行业骗术</a>
 			</td>
 			<td style="border-right: 1px dashed white;width: 12.5%;text-align: center;">
 				<a href="mind" style="text-decoration: none;color: white;text-align: center;">培训理念</a>

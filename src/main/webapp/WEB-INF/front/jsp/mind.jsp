@@ -8,7 +8,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<meta name="baidu-site-verification" content="jt42y1RpCu" />
+		<meta name="description" content="java培训，师徒式java培训，双向选择java培训，java高端培训，java高薪就业" />
+		<title>大悟智课</title>
 		<style>
 			*{padding: 0px;margin: 0px;}
 		</style>
