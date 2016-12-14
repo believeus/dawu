@@ -1,18 +1,10 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <div name="banner" style="width: 100%;height: 100px;background-color: #333436;">
-	<!-- Begin:logo -->
-	<div style="float: left;width: 20%;height: 80px;border-right: 0px solid #FFF;top: 10px;position: relative;left: 70px;">
-		<div style="float: left;color: white;font-size: 95px;font-weight: bold;">B</div>
-		<div style="float: left;color: white;font-weight: bold;position: relative;top: 5px;">
-			<div style="font-size: 33px;">
-				大悟智课
-			</div>
-			<div style="font-size: 25px;">elieveus.cn</div>
-		</div>
+	<div style="float: left;width: 25%;height: 100px;border-right: 0px solid #FFF;">
+		<img src="static/image/logo.png" style="float: right;position: relative;right: 25px;top:10px;"/>
 	</div>
-	<!-- End:logo -->
 	<div style="width: 0.1%;height: 100px;background-color: white;float: left;"></div>
-	<div style="color: white;float: left;font-size: 25px;font-weight:bold;width: 50%;margin-top: 22px;">
+	<div style="color: white;float: left;font-size: 25px;font-weight:bold;width: 45%;margin-top: 22px;">
 		<div style="position: relative;left: 15px;">IT高压式、师徒式培训</div>
 		<div style="position: relative;left: 15px;font-size: 20px;color: gray;">JavaEE/Android课程</div>
 	</div>
