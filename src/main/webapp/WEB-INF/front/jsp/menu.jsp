@@ -36,7 +36,9 @@
 			<td style="border-right: 1px dashed white;width: 12.5%;text-align: center;">
 				<a href="mind" style="text-decoration: none;color: white;text-align: center;">培训理念</a>
 			</td>
-			<td style="width: 12.5%;text-align: center;">视频下载</td>
+			<td style="width: 12.5%;text-align: center;">
+				<a href="http://blog.believeus.cn" style="text-decoration: none;color: white;text-align: center;">博客文章</a>
+			</td>
 		</tr>
 	</table>
 </div>
